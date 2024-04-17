@@ -22,9 +22,11 @@ jobs:
         run: npm ci
       - name: Build project
         run: npm run build:sb
+      - name: Create Storybook artifact
+        uses: actions/upload-artifact@v4
         with:
           name: storybook-static
-          path: dist/sotrybook/components/
+          path: dist/storybook/components/
 
   deploy-to-pages:
     runs-on: ubuntu-latest
