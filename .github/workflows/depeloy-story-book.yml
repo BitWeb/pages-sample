@@ -36,10 +36,16 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
+    #needs: build
     steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+      #- name: Deploy to GitHub Pages
+        #uses: actions/deploy-pages@v4
+        #with:
+        #  artifact_name: storybook-static
+      - uses: bitovi/github-actions-storybook-to-github-pages@v1.0.1
         with:
-          artifact_name: storybook-static
+          install_command: npm ci # default: npm ci
+          build_command: npm run build:sb # default: npm run build-storybook
+          path: dist/storybook/components/ # default: dist/storybook
+          checkout: true # default: true
 
