@@ -38,6 +38,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     #needs: build
     steps:
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
       #- name: Deploy to GitHub Pages
         #uses: actions/deploy-pages@v4
         #with:
