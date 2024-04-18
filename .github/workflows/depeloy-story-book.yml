@@ -10,26 +10,26 @@ permissions:
   id-token: write   # to verify the deployment originates from an appropriate source
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Use Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 'lts/*'
-      - name: Install dependencies
-        run: npm ci
-      - name: Build project
-        run: npm run build:sb
-      - name: Create Storybook artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: storybook-static
-          path: dist/storybook/components/
+#  build:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout code
+#        uses: actions/checkout@v4
+#        with:
+#          fetch-depth: 0
+#      - name: Use Node.js
+#        uses: actions/setup-node@v4
+#        with:
+#          node-version: 'lts/*'
+#      - name: Install dependencies
+#        run: npm ci
+#      - name: Build project
+#        run: npm run build:sb
+#      - name: Create Storybook artifact
+#        uses: actions/upload-artifact@v4
+#        with:
+#          name: storybook-static
+#          path: dist/storybook/components/
 
   deploy-to-pages:
     runs-on: ubuntu-latest
@@ -50,6 +50,6 @@ jobs:
         with:
           install_command: npm ci # default: npm ci
           build_command: npm run build:sb # default: npm run build-storybook
-          #path: dist/storybook/components/ # default: dist/storybook
+          path: dist/storybook/components # default: dist/storybook
           checkout: true # default: true
 
