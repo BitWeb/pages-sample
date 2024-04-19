@@ -6,7 +6,7 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-    "prepare": "husky install",
+    "postinstall": "husky",
     "semantic-release": "semantic-release",
     "start": "nx start",
     "test": "nx test --update-snapshot",
