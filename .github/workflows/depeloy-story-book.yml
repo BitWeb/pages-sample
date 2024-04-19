@@ -30,7 +30,6 @@ jobs:
 #        with:
 #          name: storybook-static
 #          path: dist/storybook/components/
-
   deploy-to-pages:
     runs-on: ubuntu-latest
     environment:
