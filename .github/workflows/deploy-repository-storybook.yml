@@ -78,6 +78,7 @@ jobs:
 
       - name: Create public folder
         run: |
+          ls -la branches
           mkdir public
           mv .github/workflows/index.html ./public/index.html
           cd public
@@ -86,6 +87,7 @@ jobs:
           for branch in ${branches}
           do
             mkdir -p -- $branch
+            ls -lR
             mv ../branches/$i/* ./$branch
 
             echo "<li><a href=\"./CV/${branch}\">${branch}</a></li>" >> index.html
