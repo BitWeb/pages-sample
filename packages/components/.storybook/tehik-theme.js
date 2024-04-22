@@ -5,6 +5,6 @@ export default create({
   base: 'dark',
   brandTitle: 'Tehik react components',
   brandUrl: 'https://disainipesa-react.tehik.ee/',
-  brandImage: './TEHIK_logo.svg',
+  brandImage: 'TEHIK_logo.svg',
   brandTarget: '_self',
 });
