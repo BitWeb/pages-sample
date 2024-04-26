@@ -1,3 +1,15 @@
+# [2.0.0-rc.2](https://github.com/BitWeb/pages-sample/compare/v2.0.0-rc.1...v2.0.0-rc.2) (2024-04-26)
+
+
+### Features
+
+* **Component Types:** Added a variable and a space ([c4025d0](https://github.com/BitWeb/pages-sample/commit/c4025d09c4869c23cc7781a41dd5fafcc9895ff7))
+
+
+### BREAKING CHANGES
+
+* **Component Types:** Another whitespace added.
+
 # [2.0.0-rc.1](https://github.com/BitWeb/pages-sample/compare/v1.0.0...v2.0.0-rc.1) (2024-04-26)
 
 
