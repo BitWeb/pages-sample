@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/BitWeb/pages-sample/compare/v2.0.0...v2.0.1) (2024-04-26)
+
+
+### Bug Fixes
+
+* **Component Types:** Removed a whitespace ([58f5ff6](https://github.com/BitWeb/pages-sample/commit/58f5ff656306e2c0c2d95271f3570a3f4b6217c1))
+
 # [2.0.0](https://github.com/BitWeb/pages-sample/compare/v1.0.0...v2.0.0) (2024-04-26)
 
 
