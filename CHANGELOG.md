@@ -1,3 +1,10 @@
+# [2.0.0-rc.3](https://github.com/BitWeb/pages-sample/compare/v2.0.0-rc.2...v2.0.0-rc.3) (2024-04-26)
+
+
+### Features
+
+* **Component Types:** Removed a whitespace ([a7c3678](https://github.com/BitWeb/pages-sample/commit/a7c3678f96ffda001cfc085960b697543d75cff7))
+
 # [2.0.0-rc.2](https://github.com/BitWeb/pages-sample/compare/v2.0.0-rc.1...v2.0.0-rc.2) (2024-04-26)
 
 
