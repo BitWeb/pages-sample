@@ -39,5 +39,5 @@ export type TColorsBackground =
 export type TColorsBorder = ColorsPrimary | ColorsAccent | ColorsBorder | ColorsFunctional;
 
 export const DEVICE_SIZES = ['xxl', 'xl', 'lg', 'md', 'sm', 'xs'] as const;
-var a = "asdasd"
-a += "1";
+let a = 'asdasd';
+a += '1';
