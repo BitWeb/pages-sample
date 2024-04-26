@@ -1,6 +1,5 @@
 # React Shared Libraries
 
-#BREAEKING CHANGE 2 
 Usage of tehik scope packages:
 
 - Add the following line to your `.npmrc`

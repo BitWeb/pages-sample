@@ -38,4 +38,4 @@ export type TColorsBackground =
   | 'transparent';
 export type TColorsBorder = ColorsPrimary | ColorsAccent | ColorsBorder | ColorsFunctional;
 
-export const DEVICE_SIZES = ['xxl', 'xl', 'lg', 'md', 'sm', 'xs'] as const;
+export const DEVICE_SIZES = ['xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs'] as const;
