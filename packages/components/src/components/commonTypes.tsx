@@ -40,4 +40,4 @@ export type TColorsBorder = ColorsPrimary | ColorsAccent | ColorsBorder | Colors
 
 export const DEVICE_SIZES = ['xxl', 'xl', 'lg', 'md', 'sm', 'xs'] as const;
 let a = 'asdasd';
-a += '1';
+a += '1 ';
