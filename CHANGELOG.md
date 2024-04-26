@@ -1,3 +1,15 @@
+# [2.0.0-rc.1](https://github.com/BitWeb/pages-sample/compare/v1.0.0...v2.0.0-rc.1) (2024-04-26)
+
+
+### Features
+
+* **Component Types:** Added a variable ([9d0f5cf](https://github.com/BitWeb/pages-sample/commit/9d0f5cf3a2db2c7fd0785d5a9c6fd27af2f96fa6))
+
+
+### BREAKING CHANGES
+
+* **Component Types:** use JavaScript features not available in Node 6.
+
 # 1.0.0 (2024-04-26)
 
 
