@@ -1,3 +1,18 @@
+# [2.0.0](https://github.com/BitWeb/pages-sample/compare/v1.0.0...v2.0.0) (2024-04-26)
+
+
+### Features
+
+* **Component Types:** Added a variable ([9d0f5cf](https://github.com/BitWeb/pages-sample/commit/9d0f5cf3a2db2c7fd0785d5a9c6fd27af2f96fa6))
+* **Component Types:** Added a variable and a space ([c4025d0](https://github.com/BitWeb/pages-sample/commit/c4025d09c4869c23cc7781a41dd5fafcc9895ff7))
+* **Component Types:** Removed a whitespace ([a7c3678](https://github.com/BitWeb/pages-sample/commit/a7c3678f96ffda001cfc085960b697543d75cff7))
+
+
+### BREAKING CHANGES
+
+* **Component Types:** Another whitespace added.
+* **Component Types:** use JavaScript features not available in Node 6.
+
 # [2.0.0-rc.3](https://github.com/BitWeb/pages-sample/compare/v2.0.0-rc.2...v2.0.0-rc.3) (2024-04-26)
 
 
