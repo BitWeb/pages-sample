@@ -1,3 +1,10 @@
+## [2.0.2-rc.1](https://github.com/BitWeb/pages-sample/compare/v2.0.1...v2.0.2-rc.1) (2024-04-29)
+
+
+### Bug Fixes
+
+* **Component Types:** I am making a mess ([9e195e5](https://github.com/BitWeb/pages-sample/commit/9e195e55cf4a270ea57962baaf4e59fd0286f932))
+
 ## [2.0.1](https://github.com/BitWeb/pages-sample/compare/v2.0.0...v2.0.1) (2024-04-26)
 
 
